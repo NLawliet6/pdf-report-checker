@@ -12,17 +12,16 @@ venv/
 env/
 *.env
 
-# 上传文件
+# 上传文件（如果使用）
 uploads/
 
 # IDE 文件
-.vscode/
 .idea/
+.vscode/
 
 # 测试覆盖报告
 .coverage
 htmlcov/
 
-# 临时文件
-*.tmp
-*.log
+# GitHub Actions 缓存
+.github/workflows/.cache/
